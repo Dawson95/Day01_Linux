@@ -14,3 +14,7 @@ tail -n+11 /etc/passwd | cut -d: -f1 | xargs
 
 cut -d: -f1 /etc/passwd | tail -n+11
 tail -n+11 /etc/passwd | cut -d: -f1 | xargs
+
+
+mkdir Ex09 | touch Ex09/{1..1000}
+find Ex09/ -type f -exec mv '{}' '{}'.sh \;

@@ -1,3 +1,3 @@
 #!/bin/bash
 Time=$(date)
-echo "Nous sommes le "$Time
+echo "\"Nous sommes le "$Time"\""

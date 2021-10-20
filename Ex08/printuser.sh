@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d: -f1 /etc/passwd | tail -n+11
+cut -d: -f1 /etc/passwd | tr -d _  | sort | tail -n+11

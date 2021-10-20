@@ -2,6 +2,6 @@
 ls *.php
 ls ?e*
 ls [a-e]*
-ls [^aeiou]*
+ls [^aeiouy]*
 ls *[^.p?p]
 ls *[^.p?p.txt]
